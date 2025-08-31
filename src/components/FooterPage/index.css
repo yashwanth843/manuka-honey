@@ -1,59 +1,10 @@
-/* .footerpage-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.aboutproductContainer{
-    display: flex;
-    align-items: center;
-    margin: 15px;
-}
-
-.logo{
-    width: 30px;
-    height: 30px;
-}
-
-.number{
-    color: #F1B434;
-    font-weight: 500;
-}
-
-.delivery-text{
-    color: #8e8c8c;
-}
-
-.delivery-para{
-    color: #8e8c8c;
-}
-
-.delivery-part-container{
-    margin-top: 10px;
-}
-
-.delivery-details-container{
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width:768px) {
-    .delivery-details-container{
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-    }
-} */
-
 .footerpage-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: stretch; 
   width: 100%;
-  max-width: 900px; /* keep it centered & not too wide on desktop */
+  max-width: 900px; 
   margin: 20px auto;
   padding: 15px;
   font-family: Arial, sans-serif;
